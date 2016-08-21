@@ -19,3 +19,6 @@ AccountingStart month 3 15:00
 
 # Port to advertise for directory connections
 DirPort 9030
+
+## Send every possible message to @LOCALSTATEDIR@/log/tor/debug.log
+Log debug file /var/log/tor/relay.log
