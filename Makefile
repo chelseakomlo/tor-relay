@@ -9,3 +9,11 @@ create:
 
 run:
 	docker run -d --name tor-relay docker-tor tor
+
+destroy: kill remove
+
+kill:
+	docker kill tor-relay
+
+remove:
+	docker rm tor-relay
