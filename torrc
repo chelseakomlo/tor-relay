@@ -11,7 +11,8 @@ ORPort 9001
 # Throttle traffic to 100KB/s (800Kbps)
 RelayBandwidthRate 100 KBytes
 
-## Set a maximum of 40 gigabytes each way per period.
+## Set a maximum of 500 gigabytes each way per period.
+## Needs at minimum 250 to do well in the network
 AccountingMax 500 GBytes
 
 ## Each period starts on the 3rd of the month at 15:00
