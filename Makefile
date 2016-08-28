@@ -4,6 +4,9 @@ default: create run
 attach:
 	docker exec -it tor-relay bash
 
+logs:
+	docker exec tor-relay tail -f /var/log/tor/relay.log
+
 create:
 	docker build -t docker-tor .
 

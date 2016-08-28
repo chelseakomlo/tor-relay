@@ -5,6 +5,9 @@ To start:
 To attach to the running instance:
 `make attach`
 
+To take a look at the logs:
+`make logs`
+
 To shut down & remove the container:
 `make destroy`
 
