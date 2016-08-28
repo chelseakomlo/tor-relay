@@ -18,8 +18,5 @@ AccountingMax 500 GBytes
 ## Each period starts on the 3rd of the month at 15:00
 AccountingStart month 3 15:00
 
-# Port to advertise for directory connections
-DirPort 9030
-
 ## Sets up logging
 Log notice file /var/log/tor/relay.log
