@@ -6,7 +6,7 @@ package { 'make':
         ensure => present,
 }
 
-package { 'docker':
+package { 'docker.io': # this is specifically for debian/ubuntu
         ensure => present,
 }
 
