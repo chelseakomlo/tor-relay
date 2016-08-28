@@ -1,6 +1,4 @@
-package { 'git':
-        ensure => present,
-}
+# Puppet script with dependencies
 
 package { 'make':
         ensure => present,
@@ -8,9 +6,5 @@ package { 'make':
 
 package { 'docker.io': # this is specifically for debian/ubuntu
         ensure => present,
-}
-
-exec { 'source':
-        command => "/usr/bin/git clone https://github.com/chelseakomlo/tor-relay.git"
 }
 
