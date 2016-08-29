@@ -21,3 +21,6 @@ For more configuration options, see here for a sample torrc:
 
 https://github.com/torproject/tor/blob/master/src/config/torrc.sample.in
 
+To specifically configure a memory limit, look at:
+
+https://docs.docker.com/engine/reference/run/
