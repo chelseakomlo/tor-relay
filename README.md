@@ -1,3 +1,5 @@
+Before starting:
+- Configure the torrc. More info here: https://www.torproject.org/docs/tor-doc-relay.html.en
 
 To start:
 `make`
