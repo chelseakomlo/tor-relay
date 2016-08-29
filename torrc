@@ -43,6 +43,8 @@
 ## To send all messages to stderr:
 #Log debug stderr
 
+Log notice file /var/log/tor/relay.log
+
 ## Uncomment this to start the process in the background... or use
 ## --runasdaemon 1 on the command line. This is ignored on Windows;
 ## see the FAQ entry if you want Tor to run as an NT service.
@@ -81,7 +83,8 @@
 ## See https://www.torproject.org/docs/tor-doc-relay for details.
 
 ## Required: what port to advertise for incoming Tor connections.
-#ORPort 9001
+
+ORPort 9001
 ## If you want to listen on a port other than the one advertised in
 ## ORPort (e.g. to advertise 443 but bind to 9090), you can do it as
 ## follows.  You'll need to do ipchains or other port forwarding

@@ -11,7 +11,7 @@ create:
 	docker build -t docker-tor .
 
 run:
-	docker run -d --name tor-relay docker-tor tor
+	docker run -d --name tor-relay -p 9001:9001 docker-tor tor #OSX will need to map the host IP specifically
 
 destroy: kill remove
 
