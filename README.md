@@ -1,4 +1,5 @@
 Before starting:
+
 1. Configure the torrc. More info here: https://www.torproject.org/docs/tor-doc-relay.html.en
 
 To start:
@@ -24,3 +25,7 @@ https://github.com/torproject/tor/blob/master/src/config/torrc.sample.in
 To specifically configure a memory limit, look at:
 
 https://docs.docker.com/engine/reference/run/
+
+Notes:
+
+* Don't forget to expose 9001 on the host machine.
