@@ -1,6 +1,8 @@
-Before starting:
+## Before starting:
 
 1. Configure the torrc. More info here: https://www.torproject.org/docs/tor-doc-relay.html.en
+
+## Useful commands
 
 To start:
 
@@ -18,6 +20,8 @@ To shut down & remove the container:
 
 `make destroy`
 
+## More info
+
 For more configuration options, see here for a sample torrc:
 
 https://github.com/torproject/tor/blob/master/src/config/torrc.sample.in
@@ -26,6 +30,6 @@ To specifically configure a memory limit, look at:
 
 https://docs.docker.com/engine/reference/run/
 
-Notes:
+##Notes
 
 * Don't forget to expose 9001 on the host machine.
